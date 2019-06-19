@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  margin: 20px 40px;
+}
+
+.header h2 {
+  margin: 0px;
+}
+
+#banner {
+  margin: 0;
+  background-image: url("https://source.unsplash.com/daily");
+  background-size: cover;
+  height: 800px;
+}
+
+#banner h1 {
+  text-align: center;
+  padding-top: 360px;
+  margin: 20px 0px;
+
+}
+
+.container {
+  max-width: 900px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 64px;
+  font-family: 'Source Serif Pro', serif;
+  color: white;
+}
+
+h2 {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 42px;
+  margin-bottom: 0px;
+  color: rgba(0,0,0,.84);
+}
+
+.author img {
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.info {
+  display: inline-block;
+  vertical-align:top;
+}
+
+.info p {
+  margin: 4px 12px;
+}
+
+#author_name {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#date-length {
+  color: rgba(0,0,0,.54);
+  font-size: 17px;
+}
+
+
+
+p, li {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 24px;
+  line-height: 1.6;
+  color: rgba(0,0,0,.84);
+}
+
+blockquote {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 1.6;
+  color: rgba(0,0,0,.54);
+  font-style: italic;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: rgba(0,0,0,.54);
+  margin-top: 16px;
+  font-weight: 300;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  p, li {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(0,0,0,.84);
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  #banner {
+    height: 400px;
+  }
+
+  #banner h1 {
+  text-align: center;
+  padding-top: 180px;
+  margin: 20px 0px;
+  }
+}
+
+
